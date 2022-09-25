@@ -2,18 +2,26 @@
 
 ## AIM:
 To write a python program to find the distance two 2 points
-## ALGORITHM:
-### Step 1: 
-### Step 2: 
-### Step 3: 
+## Formula:
 Substitute the values in the distance formula  ![formula](/formula.jpg)
-### Step 4: 
-### Step 5: 
+
 ### PROGRAM:
+```
+import math
+x1 = 4
+x2 = 10
+y1 = 2
+y2 = 6
+distance= math.sqrt(((x2-x1)**2)+(y2-y1)**2)
+print("{:.2f}".format(distance))
+
+```
   
 
 
 ### OUTPUT:
+![output](./1.png)
 
 
 ### RESULT:
+Thus DISTANCE-BETWEEN-TWO-POINTS is successfully executed.
